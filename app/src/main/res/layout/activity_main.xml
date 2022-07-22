@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:layout_gravity="center"
+    android:background="#D32F2F"
+    android:focusableInTouchMode="true"
+    android:gravity="center">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:paddingTop="20dp">
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:baselineAlignBottom="true"
+                android:background="@drawable/head"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_alignParentStart="true"
+                android:backgroundTint="#F08080"
+                app:cornerRadius = "20dp"
+                android:onClick="onLoginClick"
+                android:text="Español">
+
+            </Button>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:onClick="onLoginClick"
+                android:layout_alignParentStart="true"
+                android:backgroundTint="#FA8072"
+                android:text="Matematicas">
+
+            </Button>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_alignParentStart="true"
+                android:onClick="onLoginClick"
+                android:backgroundTint="#E9967A"
+                android:text="Ciencias">
+
+            </Button>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_alignParentStart="true"
+                android:onClick="onLoginClick"
+                android:backgroundTint="#FFA07A"
+                android:text="Tecnologias">
+
+            </Button>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_alignParentStart="true"
+                android:onClick="onLoginClick"
+                android:backgroundTint="#EF9A9A"
+                android:text="Artes">
+
+            </Button>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_alignParentStart="true"
+                android:onClick="onLoginClick"
+                android:backgroundTint="#E57373"
+                android:text="Idiomas">
+
+            </Button>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
